@@ -263,6 +263,17 @@
     #slider-caja-termica, #slider-tortilleros{
         margin-top: 80px !important;
      }
+
+     .main .banner-principal .banner{
+        width: 100%;
+        height: 60vh !important; /*Sustituido por banner.js*/
+        background-image: url('https://mexem.com.mx/wp-content/uploads/2024/10/alimentos.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed; /*Esto da un efecto parallax..*/
+        z-index: -1;
+     }
     }
     li{
         list-style: none !important;
