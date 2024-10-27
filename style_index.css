@@ -116,7 +116,7 @@ display:none;
     display: flex !important;
 }
 .img-icon{
-    margin-left: 44%;
+    margin-left: 38%;
     z-index:1 !important;
 }
 .rombo {
@@ -124,7 +124,7 @@ display:none;
     width: 0;
     height: 0;
     margin-top: -1% !important;
-    margin-left:45%;
+    margin-left:40%;
     border-left:35px solid transparent;
     border-right: 35px solid transparent;
     border-top: 40px solid #ffffff;
@@ -147,7 +147,7 @@ display:none;
 
     .cw{
         width:200px;
-        margin-left: 25% !important;
+        margin-left: 21% !important;
         margin-bottom:2%;
         height:225px;
         border-color: #C4212A !important;
@@ -311,7 +311,7 @@ display:none;
 
 /*AJUSTE DE TEXTO */
 .texto-carrousel-3-2{
-    font-size: 17px !important;
+    font-size: 15px !important;
     font-weight: 350;   
 }
 
@@ -349,7 +349,7 @@ display:none;
     transform: translate(-50%,-50%);
     text-align: center;
     z-index: 99;
-    font-size: 50px;
+    font-size: 45px !important;
 }
 
 .formulario_contacto{
