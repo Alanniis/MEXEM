@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Más en unicel</title>
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Barra de redes -->
+            
+            
+            <div class="col-lg-4 barra">
+                <!--icono facebook-->
+                <a class="icon-f" href="https://chrome.google.com/webstore?hl=es-419"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256">
+                <g fill="#c4212a" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M30.14063,2c-3.27025,0 -6.09523,0.99694 -8.07812,2.9668c-1.9829,1.96986 -3.0625,4.85703 -3.0625,8.40039v4.63281h-6c-0.55226,0.00006 -0.99994,0.44774 -1,1v8c0.00006,0.55226 0.44774,0.99994 1,1h6v19c0.00006,0.55226 0.44774,0.99994 1,1h8c0.55226,-0.00006 0.99994,-0.44774 1,-1v-19h7c0.50395,-0.00003 0.92915,-0.37501 0.99219,-0.875l1,-8c0.03584,-0.28475 -0.05237,-0.57117 -0.24221,-0.78642c-0.18983,-0.21524 -0.46299,-0.33856 -0.74998,-0.33858h-8v-4c0,-1.11667 0.88333,-2 2,-2h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-7.6543c-0.00063,-0.50124 -0.37221,-0.9246 -0.86914,-0.99023c-0.88367,-0.11725 -4.07368,-0.35547 -6.99023,-0.35547zM30.14063,4c2.43785,0 4.79448,0.19505 5.85938,0.29492v5.70508h-5c-2.19733,0 -4,1.80267 -4,4v5c0.00006,0.55226 0.44774,0.99994 1,1h7.86719l-0.75,6h-7.11719c-0.55226,0.00006 -0.99994,0.44774 -1,1v19h-6v-19c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1h-6v-6h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-5.63281c0,-3.14464 0.9203,-5.44028 2.47266,-6.98242c1.55235,-1.54214 3.79722,-2.38477 6.66797,-2.38477z"></path></g></g>
+                </svg></a>
+                
+                        <!--ICONO INSTAGRAM-->
+                <a class="icon-t" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256">
+                <g fill="#c4212a" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.16752,0 -13,5.83248 -13,13v18c0,7.16752 5.83248,13 13,13h18c7.16752,0 13,-5.83248 13,-13v-18c0,-7.16752 -5.83248,-13 -13,-13zM16,5h18c6.08648,0 11,4.91352 11,11v18c0,6.08648 -4.91352,11 -11,11h-18c-6.08648,0 -11,-4.91352 -11,-11v-18c0,-6.08648 4.91352,-11 11,-11zM37,11c-1.10457,0 -2,0.89543 -2,2c0,1.10457 0.89543,2 2,2c1.10457,0 2,-0.89543 2,-2c0,-1.10457 -0.89543,-2 -2,-2zM25,14c-6.06329,0 -11,4.93671 -11,11c0,6.06329 4.93671,11 11,11c6.06329,0 11,-4.93671 11,-11c0,-6.06329 -4.93671,-11 -11,-11zM25,16c4.98241,0 9,4.01759 9,9c0,4.98241 -4.01759,9 -9,9c-4.98241,0 -9,-4.01759 -9,-9c0,-4.98241 4.01759,-9 9,-9z"></path></g></g>
+                </svg>	
+                </a>
+                    <!--Barra de búsqueda-->	
+                    <input type="text" class="border border-secondary search-box">
+            </div>
+            <!-- Rombo -->
+            <div class="col-lg-6 col-sm-12">
+                <!-- <div class="rombo"></div> -->
+                <div class="row">
+                    <div class="col-sm-2 menu-hamburguesa">
+                        <button  type="button" class="btn btn-outline-danger mt-4" id="btn-hamburguesa">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                            </svg>
+                        </button>
+                     </div>
+                    <div class="col-lg-12 col-sm-6">
+                       
+                         <img class="img-icon" src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-16-copia.png">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 contenedor-contacto">
+                
+                    <button type="button" class="btn btn-danger btnContacto" onclick="contacto()">CONTACTO</button>
+
+            </div>
+        </div>
+
+        <div class="row" id="menu-hamburguesa-desplegado">
+            <div class="col-4" >
+                
+                    <ul>
+                      
+                      <li><a href="#nosotros">NOSOTROS</a></li>
+                      <li><a href="#sectores">SECTORES</a></li>
+                      <li><a href="./contacto.html">CONTACTO</a></li>
+                    </ul>
+                  
+            </div>
+        </div>
+
+
+    </div> <!-- Final del contenedor principal -->
+    
+    
+    <section class="main mt-2">
+        <div class="rombo" id="rombo"></div>
+        <div class="row nav-black">
+            <div class="col-4 offset-8">
+                <ul>
+                    <li id="elemento-distorsionado"><a href="#nosotros">NOSOTROS</a></li>
+                    <li><a href="#sectores">SECTORES</a></li>
+                    <li id="elemento-no-css"><a  href="./contacto.html">MAPA DE UBICACIÓN</a></li>
+                    <!-- <li id="elemento-no-css"><a href="">GALERÍA</a></li> -->
+                    
+                </ul>
+            </div>
+        </div>
+        <!--Baner principal-->
+   <section class="banner-principal">
+       <!-- <div class="overlay"></div> -->
+       <div class="banner" id="banner"></div>
+       <div class="texto-banner txt01">
+           <p>Los mejores <span class="span1">productos</span></p>
+           <p>de <span class="span2">poliestireno</span></p>
+           <!-- <a href="#proyectos" class="scroll-suave">VER PROYECTOS</a> -->
+           
+       </div> 
+   </section>
+</section>
+
+<!-- PRIMERA SECCIÓN - CARDS -->
+<div class="container-fluid" id="sectores">
+     <div class="row">
+        <div class="col-12">
+            <div class="texto-inicial"><strong>Nos desarrollamos en diferentes áreas</strong></div>
+        </div>
+
+     </div>
+     <div class="row">
+        <div class="col-4 offset-4"><div class="renglon-rojo"></div></div>
+     </div>
+
+     <div class="row contenedor-cards">
+
+    
+        <div class="col-lg-2 offset-lg-3 col-sm-4 offset-sm-0 mb-3">
+            	<!---MANUALIDADES-->
+			<div class="card cw">
+			  <div class="row card-body">
+                <div class="col-12"><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1.png" style="width: 32px; height: 32px;"></div>
+                <div class="col-12">
+                    <h6 class="card-title titulo-card_2 mt-2">Manualidades</h6>
+                    <ul class="lista-morada">
+                        <li>Decoración</li>
+                        <li>Escolares</li>
+                          <li>Papelería</li>
+                      </ul>
+                </div> 
+                <a href="./manualidades.html" class="enlace-conoce-mas-manualidades">CONOCE MÁS</a>
+            </div>
+		   </div>
+        </div>
+
+        <!--SALUD-->
+		<div class="col-lg-2 col-sm-3 mb-3">
+			<div class="card cw">
+			  <div class="row card-body">
+				  <div class="col-12"><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia.png" style="width: 32px; height: 32px;"></div>
+				  <div class="col-12">
+                    <h6 class="card-title titulo-card_3 mt-2">Salud</h6>
+					<ul class="lista-azul">
+					<li>Cajas térmicas</li>
+					<li>Cajas de vacunas</li>
+					<li>Charolas</li>
+          <li>Empaques para laboratorio</li>
+				  </ul>
+				  </div>
+		          <a href="./salud.html" class="enlace-conoce-mas">CONOCE MÁS</a>
+			  </div>
+			</div>
+		</div>
+		
+		<!--ALIMENTOS-->
+		<div class="col-lg-2 col-sm-4 mb-3">
+			<div class="card cw">
+			  <div class="row card-body">
+				  <div class="col-12"><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-2.png" style="width: 32px; height: 32px;"></div>
+				 <div class="col-12">
+                    <h6 class="card-title titulo-card_4 mt-2">Alimentos</h6>
+				  <ul class="lista-anaranjada">
+					<li>Charolas</li>
+					<li>Cajas térmicas</li>
+					<li>Hieleras</li>
+          <li>Tortilleros</li>
+
+				  </ul>
+                 </div>
+				  <a href="./alimentos.html" class="enlace-conoce-mas-3">CONOCE MÁS</a>
+			  </div>
+			</div>
+		</div>
+        
+     </div>
+     
+     <div class="row contenedor-3">
+		
+		<div class="col-12 mb-4 ">
+		
+        <img class="icono-2" src="https://mexem.com.mx/wp-content/uploads/2024/06/icono_mexem2.png"/>
+           
+		</div>
+	  <div class="col-lg-6 offset-lg-3">
+		 <p class="text-center texto-contenedor-3">
+		  La larga trayectoria y constancia en la calidad de nuestros productos han 
+		  dado el prestigio necesario para que sigamos manteniendo año tras año la 
+			       abundante demanda de nuestros productos.
+		</p>
+	</div>	
+	</div>
+  
+  <div class="row" id="nosotros"></div>
+<div class="row contenedor-carrousel">
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <img class="imagen-carrousel-1" src="https://mexem.com.mx/wp-content/uploads/2024/06/instalaciones_1-scaled-e1718540995321.jpg" alt="" style="width: 200px; height: 130px;">
+      </div>
+      <div class="col-2 offset-4"><div class="imagen-carrousel-2"></div></div>
+    </div>
+</div>
+
+<div class="row contenedor-carrousel">    
+    <div class="col-lg-8 col-sm-10 "><img class="imagen-carrousel-3" src="https://mexem.com.mx/wp-content/uploads/2024/06/instalaciones_2-scaled.jpg" alt="" style="width: 450px; height: 275px;"></div>
+    <div class="col-lg-4 col-sm-12 texto-carrousel-3">
+       <p class="txt01_v2"><span class="img-3-txt01">30</span><span class="img-3-txt02">años</span><br>
+        <span class="img-3-txt03">de</span><span class="img-3-txt04">experiencia</span></p>
+        <p class="txt01_v2 text-center mt-4 texto-carrousel-3-2"> Desde 1994, contamos con una nave <br>
+            de 10,000 m2, en la que se encuentran nuestras <br>
+            máquinas procesadoras de <br>
+           <span class="txt02">Poliestireno Expandido [EPS]</span> <br>
+            cortadoras, almacén y oficinas.</p>
+
+    </div>  
+</div>
+
+    <div class="row contenedor-carrousel">
+        <div class="row">
+        <div class="col-3"><div class="imagen-carrousel-5"></div></div>
+        <div class="col-lg-6 col-sm-6">
+         <img class="imagen-carrousel-4" src="https://mexem.com.mx/wp-content/uploads/2024/06/instalaciones_6-scaled-e1718546334728.jpg" alt="" style="width: 200px; height: 130px;">
+        </div>
+        </div>
+   </div>
+
+<div class="container-fluid mt-4">
+       <!-- IMAGEN PRINCIPAL DEL SLIDER -->
+  <div class="row">
+    <div class="col-sm-11">
+        <img id="imagen-mostrador" class="imagen-ms" src="https://mexem.com.mx/wp-content/uploads/2024/10/instalaciones_1-scaled.jpg" alt="">
+    </div>
+  
+ </div>
+
+   <!-- SLIDER PRINCIPAL -->
+  <div class="row">
+    <section class="contenedor-slider">
+        <div class="slider" id="slider">
+            <div class="slide">
+                <img src="https://mexem.com.mx/wp-content/uploads/2024/10/instalaciones_1-scaled.jpg" alt="" id="imagen-1">   
+            </div>
+
+            <div class="slide">
+              <img src="https://mexem.com.mx/wp-content/uploads/2024/10/instalaciones_2-scaled.jpg" alt="" id="imagen-2">   
+          </div>
+
+          <div class="slide">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/instalaciones_6-scaled.jpg" alt="" id="imagen-3">   
+        </div>
+  
+        </div>
+      
+    </section>
+</div>
+</div>
+
+<div class="col-lg-4 col-sm-12 texto-carrousel-3-small">
+    <p class="txt01 texto-30"><span class="img-3-txt01">30</span><span class="img-3-txt02">años</span><br>
+     <span class="img-3-txt03">de</span> <span class="img-3-txt04"> experiencia</span></p>
+     <p class="txt01_v2 text-center mt-4 texto-carrousel-3-2"> Desde 1994, contamos con una nave <br>
+         de 10,000 m2, en la que se encuentran nuestras <br>
+         máquinas procesadoras de <br>
+        <span class="txt02">Poliestireno Expandido [EPS]</span>, <br>
+         cortadoras, almacén y oficinas.</p>
+
+ </div>
+
+</div>
+
+<div class="container-fluid contenedor-mision text-center">
+    <div class="row mt-4">
+      <div class="col-lg-3 offset-lg-1 title_red line">MISIÓN</div>
+      <div class="col-lg-6 col-sm-12 line"> 
+         <p>Atender a los clientes, excediendo sus expectativas, en cuanto a 
+          servicio y calidad, a través de la fabricación y comercialización de 
+          productos basados en <span class="txt02">Poliestireno Expandido [EPS].</span></p>
+        </div>
+        
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-lg-3 offset-lg-1 title_red line">VISIÓN</div>
+        <div class="col-lg-6 col-sm-12 line"> 
+          <P>
+            Ser una empresa que por su rentabilidad, competividad, atención 
+            y servicio logre posicionarse como una de las grandes y rentables 
+            compañías productoras de <span class="txt02">Poliestireno Expandido [EPS].</span>
+          </P>    
+        </div>
+        
+      </div>
+
+      <div class="row">
+          <div class="col-12  text-center title_red">VALORES</div>
+           
+      </div>
+
+      <div class="row wrapper valores-pantalla-xl mt-3">
+        <div class="col-lg-2 offset-lg-1 col-sm-6">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-3.png" alt="" style="width: 50px; height: 50px;">
+             <p>Flexibilidad</p>
+         </div>
+
+         <div class="col-lg-2 col-sm-6">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-6.png" alt="" style="width: 50px; height: 50px;">
+            <p>Calidad</p>
+         </div>
+
+         <div class="col-lg-2 col-sm-6">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-5.png" alt="" style="width: 50px; height: 50px;" >
+            <p>Independencia</p>
+         </div>
+
+         <div class="col-lg-2 col-sm-6">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-4.png" alt="" style="width: 50px; height: 50px;">
+            <p>Prestigio</p>
+         </div>
+
+         <div class="col-lg-2 col-sm-6">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-7.png" alt="" style="width: 50px; height: 50px;" >
+            <p>Lealtad</p>
+         </div>
+      </div>
+
+      <div class="row valores-pantalla-small mt-3" style="display: none;">
+        <div class="col-6">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-3.png" alt="" style="width: 50px; height: 50px;">
+             <p>Flexibilidad</p>
+         </div>
+
+         <div class="col-6">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-6.png" alt="" style="width: 50px; height: 50px;">
+            <p>Calidad</p>
+         </div>
+
+         <div class="col-6">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-5.png" alt="" style="width: 50px; height: 50px;" >
+            <p>Independencia</p>
+         </div>
+
+         <div class="col-6">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-4.png" alt="" style="width: 50px; height: 50px;">
+            <p>Prestigio</p>
+         </div>
+
+         <div class="col-6">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-7.png" alt="" style="width: 50px; height: 50px;" >
+            <p>Lealtad</p>
+         </div>
+      </div>
+  </div>
+
+
+  <div class="container-fluid ">
+     <div class="row seccion-4">
+        <div class="col-lg-4 offset-lg-1  offset-sm-0 col-sm-12 mt-4">
+            <img class="imagen-banner" src="https://mexem.com.mx/wp-content/uploads/2024/10/banner1.jpg" alt="">
+        </div>
+        <div class="col-lg-6 margen-superior border-banner">
+           
+            <div class="row ">
+                <div class="col-lg-8 col-sm-8">
+                    <h1 class="light_title">POLIESTIRENO</h1>
+                    <h1 class="light_title">EXPANDIDO</h1>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <h3 class="title_red">[ESP]</h3>
+                </div>
+            </div>
+             <div class="col-12">
+                <P class="text-center">
+                    Es un material de plástico espumado utilizado 
+                    como envase y embalaje, también conocido como 
+                    <strong>“nieve seca”</strong> o <span class="l-cursiva">unicel.</span>
+                  </P>  
+             </div>
+
+             <div class="row">
+                <div class="col-6 txt01">
+                    <p class="title_red_v2">DURABLE</p>
+                      <p>Imputrescible</p>
+                </div>
+                <div class="col-6 txt01">
+                    <p class="title_red_v2">PERSONALIZADO</p>
+                      <p>En tamaño y forma</p>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-6 txt01">
+                    <p class="title_red_v2">100% RECICLABLE</p>
+                      <p>Evita la tala indiscriminada de árboles</p>
+                </div>
+                <div class="col-6 txt01">
+                    <p class="title_red_v2">LIGERO</p>
+                      <p>98% aire</p>
+                </div>
+             </div>
+
+             <div class="row">
+                <div class="col-6 txt01">
+                    <p class="title_red_v2">RESISTENTE</p>
+                      <p>Diferentes niveles de densidad</p>
+                </div>
+                <div class="col-6 txt01">
+                    <p class="title_red_v2">SEGURO E HIGIENICO</p>
+                      <p>No tóxico</p>
+                </div>
+             </div>
+
+             <!-- <a href="" class="enlace-conoce-mas_v2">GALERÍA</a> -->
+        </div>
+     </div>
+     
+     <div class="row seccion-4-small" style="display: none;">
+       <div class="col-12">
+          <img class="img-seccion-4-small" src="https://mexem.com.mx/wp-content/uploads/2024/10/banner1.jpg" alt="">
+      </div>
+
+      <div class="col-11 border-banner seccion-4-small-01">
+          
+       
+
+          <div class="row ">
+              <div class="col-8">
+                  <h1 class="light_title">POLIESTIRENO</h1>
+                  <h1 class="light_title">EXPANDIDO</h1>
+              </div>
+              <div class="col-4">
+                  <h3 class="title_red">[ESP]</h3>
+              </div>
+          </div>
+           <div class="col-12">
+              <P class="text-center">
+                  Es un material de plástico espumado utilizado 
+                  como envase y embalaje, también conocido como 
+                  <strong>“nieve seca”</strong> o <span class="l-cursiva">unicel.</span>
+                </P>  
+           </div>
+
+           <div class="row">
+              <div class="col-6 txt01">
+                  <p class="title_red_v2">DURABLE</p>
+                    <p>Imputrescible</p>
+              </div>
+              <div class="col-6 txt01">
+                  <p class="title_red_v2">PERSONALIZADO</p>
+                    <p>En tamaño y forma</p>
+              </div>
+           </div>
+
+           <div class="row">
+              <div class="col-6 txt01">
+                  <p class="title_red_v2">100% RECICLABLE</p>
+                    <p>Evita la tala indiscriminada de árboles</p>
+              </div>
+              <div class="col-6 txt01">
+                  <p class="title_red_v2">LIGERO</p>
+                    <p>98% aire</p>
+              </div>
+           </div>
+
+           <div class="row">
+              <div class="col-6 txt01">
+                  <p class="title_red_v2">RESISTENTE</p>
+                    <p>Diferentes niveles de densidad</p>
+              </div>
+              <div class="col-6 txt01">
+                  <p class="title_red_v2">SEGURO E HIGIENICO</p>
+                    <p>No tóxico</p>
+              </div>
+           </div>
+      </div>
+   </div>
+    
+
+     <div class="row">
+        <div class="col-12">
+            <div class="texto-inicial"><strong>Nuestros clientes nos respaldan</strong></div>
+        </div>
+
+     </div>
+     <div class="row">
+        <div class="col-4 offset-4"><div class="renglon-rojo"></div></div>
+     </div>
+  </div>
+  
+  <div class="container-fluid contenedor-marcas">
+     <div class="row wrapper mt-4">
+         <div class="col-lg-3 col-sm-12">
+             <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-18-copia-7.png" alt="" style="width:200px; height: 150px;">
+         </div>
+         <div class="col-lg-3 col-sm-12">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-18-copia-6.png" alt=""  style="width:200px; height: 150px;">
+        </div>
+        <div class="col-lg-3 col-sm-12">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-18-copia.png" alt=""  style="width:200px; height: 150px;">
+        </div>
+        <div class="col-lg-3 col-sm-12">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-18-copia-4.png" alt="" style="width:200px; height: 100px;">
+        </div>
+     </div>
+
+     <div class="row wrapper mt-4">
+        <div class="col-lg-2 offset-lg-1 offset-sm-0 col-sm-12">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/dollar-tree.png" alt="" style="width:200px; height: 100px;">
+        </div>
+        <div class="col-lg-2 col-sm-12">
+           <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-18.png" alt="" style="width:200px; height: 100px;">
+       </div>
+       <div class="col-lg-2 col-sm-12">
+           <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-18-copia-3.png" alt="" style="width:200px; height: 100px;">
+       </div>
+       <div class="col-lg-2 col-sm-12">
+           <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-18-copia-5.png" alt="" style="width:200px; height: 100px;">
+       </div>
+       <div class="col-lg-2 col-sm-12">
+        <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-18-copia-2.png" alt="" style="width:200px; height: 100px;">
+    </div>
+    </div>
+  </div>
+
+  <div class="container-fluid footer">
+       <div class="row wrapper sub-footer">
+          <div class="col-2 icono-footer">
+            <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-16.png" alt="" style="width: 100px; height: 120px;">
+          </div>
+          <div class="col-lg-2 col-sm-12 menu-footer">
+            <ul>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#sectores">SECTORES</a></li>
+                <li><a href="#">AVISO DE PRIVACIDAD</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-4 col-sm-12 menu-contacto-footer">
+            <ul>
+                <li><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-11.png" alt="" style="width: 30px; height: 30px;"><strong>WhatsApp:</strong>  55 55070890</li>
+                <li><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-9.png" alt="" style="width: 30px; height: 30px;"><strong>Fabrica:</strong> 595 9535307</li>
+                <li><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-8.png" alt="" style="width: 30px; height: 30px;"><strong>Ventas:</strong> 800 2263936</li>
+                <li><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-10.png" alt="" style="width: 30px; height: 30px;">contacto@mexem.com.mx</li>
+                <li><div class="row">
+                     <div class="col-1"><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-12.png" alt="" style="width: 30px; height: 30px;"></div>
+                     <div class="col-10 left-pantalla-lx">
+                       <p>Álvaro Obregón 30, barrio de huitznauhuac,
+                        Chiautla, estado de mexico, 56030 <br><a href="./contacto.html">MAPA DE UBICACIÓN</a></p>
+                     </div>
+                </div>
+              </li>
+              </ul>
+          </div>
+          <div class="col-lg-2 col-sm-12 icons-footer">
+            <!--icono facebook-->
+            <a class="" href="#"><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-13.png" alt="" style="width: 35px; height: 35px;"></a>
+                
+                        <!--ICONO INSTAGRAM-->
+            <a class="" href="#"> <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-14.png" alt="" style="width: 35px; height: 35px;"></a>
+          </div>
+       </div>
+  </div>
+
+  <script src="https://mexem.com.mx/wp-content/uploads/2024/10/jquery-3.6.4.min.js"></script>
+  <script src="./slider_index.js"></script>
+
+    <script>
+        var menuAbierto = false;
+        document.getElementById('btn-hamburguesa').addEventListener('click',function(){
+            console.log(menuAbierto)
+            mostrarMenu();
+        });
+
+        function mostrarMenu(){
+           
+            if(menuAbierto){
+                menuAbierto = false;
+                document.getElementById('menu-hamburguesa-desplegado').style.display = 'none';
+                document.getElementById('rombo').style.display = 'flex';
+            }else{
+                menuAbierto = true;
+                document.getElementById('menu-hamburguesa-desplegado').style.display = 'block';
+                document.getElementById('rombo').style.display = 'none';
+            }
+        }
+
+        function contacto(){
+          location.href='./contacto.html';
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

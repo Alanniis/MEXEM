@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-salud.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Más en unicel</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Barra de redes -->
+            
+            
+            <div class="col-lg-4 barra">
+                <!--icono facebook-->
+                <a class="icon-f" href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256">
+                <g fill="#c4212a" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M30.14063,2c-3.27025,0 -6.09523,0.99694 -8.07812,2.9668c-1.9829,1.96986 -3.0625,4.85703 -3.0625,8.40039v4.63281h-6c-0.55226,0.00006 -0.99994,0.44774 -1,1v8c0.00006,0.55226 0.44774,0.99994 1,1h6v19c0.00006,0.55226 0.44774,0.99994 1,1h8c0.55226,-0.00006 0.99994,-0.44774 1,-1v-19h7c0.50395,-0.00003 0.92915,-0.37501 0.99219,-0.875l1,-8c0.03584,-0.28475 -0.05237,-0.57117 -0.24221,-0.78642c-0.18983,-0.21524 -0.46299,-0.33856 -0.74998,-0.33858h-8v-4c0,-1.11667 0.88333,-2 2,-2h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-7.6543c-0.00063,-0.50124 -0.37221,-0.9246 -0.86914,-0.99023c-0.88367,-0.11725 -4.07368,-0.35547 -6.99023,-0.35547zM30.14063,4c2.43785,0 4.79448,0.19505 5.85938,0.29492v5.70508h-5c-2.19733,0 -4,1.80267 -4,4v5c0.00006,0.55226 0.44774,0.99994 1,1h7.86719l-0.75,6h-7.11719c-0.55226,0.00006 -0.99994,0.44774 -1,1v19h-6v-19c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1h-6v-6h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-5.63281c0,-3.14464 0.9203,-5.44028 2.47266,-6.98242c1.55235,-1.54214 3.79722,-2.38477 6.66797,-2.38477z"></path></g></g>
+                </svg></a>
+                
+                        <!--ICONO INSTAGRAM-->
+                <a class="icon-t" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256">
+                <g fill="#c4212a" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.16752,0 -13,5.83248 -13,13v18c0,7.16752 5.83248,13 13,13h18c7.16752,0 13,-5.83248 13,-13v-18c0,-7.16752 -5.83248,-13 -13,-13zM16,5h18c6.08648,0 11,4.91352 11,11v18c0,6.08648 -4.91352,11 -11,11h-18c-6.08648,0 -11,-4.91352 -11,-11v-18c0,-6.08648 4.91352,-11 11,-11zM37,11c-1.10457,0 -2,0.89543 -2,2c0,1.10457 0.89543,2 2,2c1.10457,0 2,-0.89543 2,-2c0,-1.10457 -0.89543,-2 -2,-2zM25,14c-6.06329,0 -11,4.93671 -11,11c0,6.06329 4.93671,11 11,11c6.06329,0 11,-4.93671 11,-11c0,-6.06329 -4.93671,-11 -11,-11zM25,16c4.98241,0 9,4.01759 9,9c0,4.98241 -4.01759,9 -9,9c-4.98241,0 -9,-4.01759 -9,-9c0,-4.98241 4.01759,-9 9,-9z"></path></g></g>
+                </svg>	
+                </a>
+                    <!--Barra de búsqueda-->	
+                    <input type="text" class="border border-secondary search-box">
+            </div>
+            <!-- Rombo -->
+            <div class="col-lg-4 col-sm-8 contenedor-barra-redes">
+                <!-- <div class="rombo"></div> -->
+                <div class="row">
+                    <div class="col-2 menu-hamburguesa">
+                        <button  type="button" class="btn btn-outline-danger mt-4" id="btn-hamburguesa">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                              </svg>
+                        </button>
+                     </div>
+                    <div class="col-10">
+                        <img class="img-icon" src="https://mexem.com.mx/wp-content/uploads/2024/06/icono_mexem-1-e1718072613184.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 contenedor-contacto">
+                
+                    <button type="button" class="btn btn-danger btnContacto" onclick="contacto()">CONTACTO</button>
+
+            </div>
+        </div>
+
+        <div class="row" id="menu-hamburguesa-desplegado">
+            <div class="col-4" >
+                
+                <ul>
+                      
+                    <li><a href="./index.html">NOSOTROS</a></li>
+                    <li><a href="./index.html">SECTORES</a></li>
+                    <li><a href="./contacto.html">CONTACTO</a></li>
+                  </ul>
+                  
+            </div>
+        </div>
+
+
+    </div> <!-- Final del contenedor principal -->
+    
+    
+    <section class="main mt-2">
+        <!-- <div class="rombo" id="rombo"></div> -->
+        <div class="row nav-black">
+            <div class="col-4 offset-8">
+                <ul>
+                    <li id="elemento-distorsionado"><a href="./index.html">NOSOTROS</a></li>
+                    <li><a href="./index.html">SECTORES</a></li>
+                    <li id="elemento-no-css"><a  href="./contacto.html">MAPA DE UBICACIÓN</a></li>
+                    <!-- <li id="elemento-no-css"><a href="">GALERÍA</a></li> -->
+                    
+                </ul>
+            </div>
+        </div>
+        <!--Baner principal-->
+   <section class="banner-principal">
+       <div class="overlay"></div>
+       <div class="banner" id="banner"></div>
+       <div class="texto-banner">
+           <p><span class="texto-subrayado">S</span>alud</p>
+           <!-- <a href="#proyectos" class="scroll-suave">VER PROYECTOS</a> -->
+           
+       </div> 
+   </section>
+</section>
+
+<!-- SECCIÓN DE SALUD -->
+ <div class="container-fluid">
+     <div class="row">
+        <div class="col-12 texto-inicial_v2 text-center">
+            <p>Se utiliza por su gran capacidad térmica para el traslado
+                de plasma y múltiples medicinas que deben conservar una temperatura específica.
+            </p>
+        </div>
+     </div>
+
+     <!-- CONTENIDO DE LA PAGINA -->
+     <div class="row ">
+        <div class="col-lg-2 offset-1 col-sm-12 salud-lista">
+            
+                    <ul>
+                        <li id="caja-termica">Cajas térmicas</li>
+                        <li id="vacuna">Caja vacuna</li>
+                        <li>Charolas</li>
+                        <li id="laboratorio">Empaques para laboratorio</li>
+            
+                    </ul>
+            
+        </div>
+         
+        <div class="col-lg-9">
+            <div class="container-fluid ">
+                
+                <!-- IMAGEN PRINCIPAL DEL SLIDER -->
+                <div class="row">
+                   <div class="col-lg-4 offset-lg-2  offset-sm-0 col-sm-12">
+                       <img class="imagen-banner" id="imagen-mostrador" src="https://mexem.com.mx/wp-content/uploads/2024/10/1-15.jpg" alt="" style="width: 375px; height: 250px;">
+                   </div>
+                   <div class="col-lg-6 col-sm-12">
+           
+                        <div class="row border-banner ">
+                           <div class="col-12 txt01">
+                               <p class="title_red_v2" id="texto-1"><span id="nodo-hijo-1">HL 1651</span></p>
+                               <p class="segundo_texto" id="texto-2"><span id="nodo-hijo-2">CAJA TÉRMICA</span></p>
+                               <p class="tercer_texto"></p>
+                           </div>
+                           
+                        </div>
+           
+                   </div>
+                </div>
+
+                <!-- SLIDER CAJA TÉRMICA -->
+                <div class="row" id="slider-caja-termica">
+                    <section class="contenedor-slider">
+                        <div class="slider" id="slider">
+                            <div class="slide">
+                                <img src="https://mexem.com.mx/wp-content/uploads/2024/10/1-15.jpg" alt="" id="imagen-1-caja-termica">
+                                  <div class="txt01">
+                                    <p id="texto1-imagen1-caja-termica">HL 1651</p>
+                                    <p id="texto2-imagen1-caja-termica">CAJA TÉRMICA</p>
+                                    <p id="texto3-imagen1-caja-termica"></p>
+                                  </div>
+                            </div>
+                    
+                            <div class="slide">
+                                <img src="https://mexem.com.mx/wp-content/uploads/2024/10/2-15.jpg" alt="" id="imagen-2-caja-termica">
+                                <div class="txt01">
+                                    <p id="texto1-imagen2-caja-termica">HL 1651</p>
+                                    <p id="texto2-imagen2-caja-termica">CAJA TÉRMICA</p>
+                                    <p id="texto3-imagen2-caja-termica"></p>
+                                  </div>
+                            </div>
+                    
+                            <div class="slide">
+                                <img src="https://mexem.com.mx/wp-content/uploads/2024/10/3-12.jpg" alt="" id="imagen-3-caja-termica">
+                                <div class="txt01">
+                                    <p id="texto1-imagen3-caja-termica">HL 1651</p>
+                                    <p id="texto2-imagen3-caja-termica">CAJA TÉRMICA</p>
+                                    <p id="texto23imagen3-caja-termica"></p>
+                                  </div>
+                            </div>
+                    
+                           
+                        </div>
+                        <div class="btn-anterior" id="btnAnterior">
+                           <button type="button" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+                              </svg>
+                           </button>
+                            <!-- <i class="fa fa-arrow-left"></i> -->
+                            
+                        </div>
+                    
+                        <div class="btn-siguiente" id="btnSiguiente">
+                            <button type="button" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                                  </svg>
+                            </button>
+                            <!-- <i class="fa fa-arrow-right"></i> -->
+                        </div>
+                    </section>
+                </div>
+
+                <!-- SLIDER VACUNA -->
+                <div class="row" id="slider-vacuna">
+                    <section class="contenedor-slider">
+                        <div class="slider" id="slider">
+                            <div class="slide">
+                                <img src="https://mexem.com.mx/wp-content/uploads/2024/10/1-18.jpg" alt="" id="imagen-1-vacuna">
+                                  <div class="txt01">
+                                    <p id="texto1-imagen1-vacuna">CAJA VACUNA</p>
+                                    <p id="texto2-imagen1-vacuna">No. 1</p>
+                                    <p id="texto3-imagen1-vacuna"></p>
+                                  </div>
+                            </div>
+                    
+                            <div class="slide">
+                                <img src="https://mexem.com.mx/wp-content/uploads/2024/10/2-18.jpg" alt="" id="imagen-2-vacuna">
+                                <div class="txt01">
+                                    <p id="texto1-imagen2-vacuna">CAJA VACUNA</p>
+                                    <p id="texto2-imagen2-vacuna">No. 2</p>
+                                    <p id="texto3-imagen2-vacuna"></p>
+                                  </div>
+                            </div>
+                    
+                           
+                        </div>
+                        <div class="btn-anterior" id="btnAnterior">
+                           <button type="button" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+                              </svg>
+                           </button>
+                            <!-- <i class="fa fa-arrow-left"></i> -->
+                            
+                        </div>
+                    
+                        <div class="btn-siguiente" id="btnSiguiente">
+                            <button type="button" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                                  </svg>
+                            </button>
+                            <!-- <i class="fa fa-arrow-right"></i> -->
+                        </div>
+                    </section>
+                </div>
+
+                <!-- SLIDER LABORATORIO -->
+                <div class="row" id="slider-laboratorio">
+                    <section class="contenedor-slider">
+                        <div class="slider" id="slider">
+                            <div class="slide">
+                                <img src="https://mexem.com.mx/wp-content/uploads/2024/10/1-20.jpg" alt="" id="imagen-1-laboratorio">
+                                  <div class="txt01">
+                                    <p id="texto1-imagen1-laboratorio">LABORATORIO</p>
+                                    <p id="texto2-imagen1-laboratorio">No. 1</p>
+                                    <p id="texto3-imagen1-laboratorio"></p>
+                                  </div>
+                            </div>
+                    
+                           
+                        </div>
+                        <div class="btn-anterior" id="btnAnterior">
+                           <button type="button" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+                              </svg>
+                           </button>
+                            <!-- <i class="fa fa-arrow-left"></i> -->
+                            
+                        </div>
+                    
+                        <div class="btn-siguiente" id="btnSiguiente">
+                            <button type="button" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                                  </svg>
+                            </button>
+                            <!-- <i class="fa fa-arrow-right"></i> -->
+                        </div>
+                    </section>
+                </div>
+                
+                
+            <!-- CIERRE DE CONTENEDOR -->
+             </div>
+        </div>
+        
+     </div>
+ </div>
+
+ <!-- FINALIZA CONTENIDO DE LA PÁGINA -->
+
+ <div class="container-fluid footer">
+    <div class="row wrapper sub-footer">
+       <div class="col-2 icono-footer">
+         <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-16.png" alt="" style="width: 100px; height: 120px;">
+       </div>
+       <div class="col-lg-2 col-sm-12 menu-footer">
+         <ul>
+             <li><a href="./index.html">NOSOTROS</a></li>
+             <li><a href="./index.html">SECTORES</a></li>
+             <li><a href="#">AVISO DE PRIVACIDAD</a></li>
+           </ul>
+       </div>
+       <div class="col-lg-4 col-sm-12 menu-contacto-footer">
+         <ul>
+             <li><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-11.png" alt="" style="width: 30px; height: 30px;"><strong>WhatsApp:</strong>  55 55070890</li>
+             <li><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-9.png" alt="" style="width: 30px; height: 30px;"><strong>Fabrica:</strong> 595 9535307</li>
+             <li><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-8.png" alt="" style="width: 30px; height: 30px;"><strong>Ventas:</strong> 800 2263936</li>
+             <li><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-10.png" alt="" style="width: 30px; height: 30px;">contacto@mexem.com.mx</li>
+             <li><div class="row">
+                <div class="col-1"><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-12.png" alt="" style="width: 30px; height: 30px;"></div>
+                <div class="col-10 left-pantalla-lx">
+                  <p>Álvaro Obregón 30, barrio de huitznauhuac,
+                   Chiautla, estado de mexico, 56030 <br><a href="./contacto.html">MAPA DE UBICACIÓN</a></p>
+                </div>
+           </div>
+           </li>
+           </ul>
+       </div>
+       <div class="col-lg-2 col-sm-12 icons-footer">
+         <!--icono facebook-->
+         <a class="" href="#"><img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-13.png" alt="" style="width: 35px; height: 35px;"></a>
+             
+                     <!--ICONO INSTAGRAM-->
+         <a class="" href="#"> <img src="https://mexem.com.mx/wp-content/uploads/2024/10/Mesa-de-trabajo-1-copia-14.png" alt="" style="width: 35px; height: 35px;"></a>
+       </div>
+    </div>
+</div>
+
+<script src="https://mexem.com.mx/wp-content/uploads/2024/10/jquery-3.6.4.min.js"></script>
+<script src="https://mexem.com.mx/wp-content/uploads/2024/10/slider.js"></script>
+<script src="./slider_salud.js"></script>
+
+    <script>
+        var menuAbierto = false;
+        document.getElementById('btn-hamburguesa').addEventListener('click',function(){
+            console.log(menuAbierto)
+            mostrarMenu();
+        });
+
+        function mostrarMenu(){
+           
+            if(menuAbierto){
+                menuAbierto = false;
+                document.getElementById('menu-hamburguesa-desplegado').style.display = 'none';
+                document.getElementById('rombo').style.display = 'flex';
+            }else{
+                menuAbierto = true;
+                document.getElementById('menu-hamburguesa-desplegado').style.display = 'block';
+                document.getElementById('rombo').style.display = 'none';
+            }
+        }
+
+        function contacto(){
+          location.href='./contacto.html';
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
